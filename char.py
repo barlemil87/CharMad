@@ -1,4 +1,4 @@
-with open('TEXT1.txt', 'w+') as f:
+with open('test1.txt', 'w+') as f:
     
     t=0
     t_f=0    
