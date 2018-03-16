@@ -1,4 +1,4 @@
-with open('test1.txt', 'w+') as f:
+with open('TEXT1.txt', 'w+') as f:
     
     t=0
     t_f=0    
@@ -27,7 +27,7 @@ with open('test1.txt', 'w+') as f:
         tau=(1/a0)*math.log(1/r1)
         alpha=a0*r2
             
-            #if r1==0:
+            if r1==0:
                 #r1=0.0000001
     
         sum_a=0
