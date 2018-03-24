@@ -49,3 +49,8 @@ with open('TEXT1.txt', 'w+') as f:
             t_f=t_f+time_interval
         
         t=t+tau
+        
+import itertools
+
+for _ in itertools.repeat(None, 10):
+    do_something()
